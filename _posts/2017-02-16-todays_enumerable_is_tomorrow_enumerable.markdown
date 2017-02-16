@@ -1,16 +1,16 @@
 ---
 layout: post
 title:  "Today's Enumerable is tomorrow Enumerable"
-date:   2017-02-16 06:39:48 +0000
+date:   2017-02-16 01:39:54 -0500
 ---
 
-Ruby offers various enumerable methods and for my first technical blog post I decided to explore them. As we have been ```enlightened```  by our great Flatiron instructors, we now know that if you happen to be using a ```.each``` method, chances are you are using the wrong method. 
+Ruby offers various enumerable methods. For my first technical blog post, I decided to explore them. As we have been ```enlightened```  by our great Flatiron instructors, we now know that if you happen to be using an ```.each``` method, chances are you are using the wrong method. 
 
 Knowing this, I decided I needed to spend more time exploring the Ruby documentation for interesting array & hash methods to gain a better understanding of all the great tools at our disposal. Today, I go over a few methods that I believe will be very useful.
 
 
 ## ```.fetch```
-Working with database this past week in class, the use of the .fetch has been useful more than once. I wanted to point it out and give some more examples on it use and syntax before moving on to other methods.
+Working with databases this past week in class, ```.fetch``` has been useful more than once. I wanted to point it out and give some more examples on its use and syntax before moving on to other methods.
 
 The Method . fetch attempts to return the element at a specific ```index```. 
 It returns an Error(IndexError) is the reference is outside the array bounds.
@@ -100,7 +100,7 @@ new_arr
 ```
 
 
-This method is useful for two reasons. First,``` .cycle ```can be ran as many times as the coder wants. ```.cycle()``` takes in an argument ```(x)``` as an indicator to how many cycles the coder wants this method to run. ```.cycle ```with no argument create a infinite loop. 
+This method is useful for two reasons. First,``` .cycle ```can be run as many times as the coder wants. ```.cycle()``` takes in an argument ```(x)``` as an indicator to how many cycles the coder wants this method to run. ```.cycle ```with no argument create a infinite loop. 
 Secondly, the fact that ```.cycle``` does not alter the original array can be a saver. This would require you to code in the passing of the argument to a storing array (i.e: ```new_arr<< x ```) within the block.
 
 
