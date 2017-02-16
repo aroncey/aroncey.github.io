@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Today's Enumerable is tomorrow Enumerable"
+title:  "**Today's Enumerable is tomorrow Enumerable**"
 date:   2017-02-16 01:39:54 -0500
 ---
 
@@ -9,7 +9,7 @@ Ruby offers various enumerable methods. For my first technical blog post, I deci
 Knowing this, I decided I needed to spend more time exploring the Ruby documentation for interesting array & hash methods to gain a better understanding of all the great tools at our disposal. Today, I go over a few methods that I believe will be very useful.
 
 
-## ```.fetch```
+# ```.fetch```
 Working with databases this past week in class, ```.fetch``` has been useful more than once. I wanted to point it out and give some more examples on its use and syntax before moving on to other methods.
 
 The Method . fetch attempts to return the element at a specific ```index```. 
@@ -30,7 +30,7 @@ test.fetch(5)=>
 test.fetch(-1) => return the last element
 ```
 
-It also allow you to customize the ```return``` but passing it a block. see example below:
+It also allow you to customize the ```return``` by passing it a block. see example below:
 
 ```
 test.fetch(8){ |x| puts "Nope! not today, value at index #{x} is out of boudries" } 
